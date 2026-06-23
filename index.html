@@ -7,11 +7,11 @@
 <body style="margin: 0px; overflow: hidden">
   <a-scene vr-mode-ui="enable: false" embedded arjs="sourceType: webcam; debugUIEnabled: false;">
     <a-assets timeout="10000">
-      <a-asset-item id="mesa" src="Mesa-animada-3d.glb"></a-asset-item>
+      <a-asset-item id="mesa2" src="mesa3D.glb"></a-asset-item>
     </a-assets>
 
     <a-marker type="pattern" url="pattern-TagMesa-ofc.patt">
-      <a-entity gltf-model="#mesa" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#mesa2" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-entity>
     </a-marker>
 
     <a-entity camera></a-entity>
